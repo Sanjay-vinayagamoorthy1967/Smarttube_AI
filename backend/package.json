@@ -1,0 +1,17 @@
+{
+  "name": "smarttube-ai-backend",
+  "version": "1.1.0",
+  "description": "SmartTube AI backend (Groq-powered)",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "groq-sdk": "^1.1.2",
+    "youtube-transcript": "^1.2.1"
+  }
+}
